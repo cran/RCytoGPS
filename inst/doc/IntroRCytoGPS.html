@@ -11,7 +11,7 @@
 
 <meta name="author" content="Dwayne Tally, Zachary B. Abrams, and Kevin R. Coombes" />
 
-<meta name="date" content="2020-11-16" />
+<meta name="date" content="2021-02-10" />
 
 <title>RCytoGPS: Working With LGF-Models of Karyotype in R</title>
 
@@ -530,7 +530,7 @@ summary {
 
 <h1 class="title toc-ignore">RCytoGPS: Working With LGF-Models of Karyotype in R</h1>
 <h4 class="author">Dwayne Tally, Zachary B. Abrams, and Kevin R. Coombes</h4>
-<h4 class="date">2020-11-16</h4>
+<h4 class="date">2021-02-10</h4>
 
 </div>
 
@@ -554,7 +554,7 @@ summary {
 ## [4] &quot;input2.txt&quot;</code></pre>
 <p>The two text files contain the inputs that were uploaded to the web site; the two JSON files contain the outputs. You can specify the files and the folder that you want to read. The simplest application is to omit the files variable and read all filed in teh specified folder (which defaults to the current working directory).</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>temp &lt;-<span class="st"> </span><span class="kw">readLGF</span>(<span class="dt">folder =</span> wd)</span></code></pre></div>
-<pre><code>## Reading 2 file(s) from &#39;C:/Users/KRC/AppData/Local/Temp/RtmpaQIKjW/Rinst1564e5b575a/RCytoGPS/Examples/JSONfiles&#39;.</code></pre>
+<pre><code>## Reading 2 file(s) from &#39;C:/Users/KRC/AppData/Local/Temp/RtmpycTaSD/Rinst58685ad7682b/RCytoGPS/Examples/JSONfiles&#39;.</code></pre>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">rm</span>(wd)</span></code></pre></div>
 <p>The return value is a list of five elements.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="kw">class</span>(temp)</span></code></pre></div>
@@ -710,7 +710,7 @@ Idiogram to contrast two data columms.
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] RCytoGPS_1.0.1
+## [1] RCytoGPS_1.1.1
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] compiler_4.0.3  rjson_0.2.20    magrittr_1.5    htmltools_0.5.0
