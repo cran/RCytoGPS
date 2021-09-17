@@ -1,6 +1,14 @@
 ## ----opts, echo=FALSE---------------------------------------------------------
 knitr::opts_chunk$set(fig.width=8, fig.height=5)
 
+## ----mycss, results="asis", echo=FALSE----------------------------------------
+cat('
+<style type="text/css">
+.figure { text-align: center; }
+.caption { font-weight: bold; }
+</style>
+')
+
 ## ----Setup--------------------------------------------------------------------
 library(RCytoGPS)
 
@@ -46,7 +54,7 @@ cytoData <- data.frame(temp[["CL"]], temp[["frequency"]])
 ## ----Turning CytoData into an S4 Object---------------------------------------
 bandData <- CytobandData(cytoData)
 
-## ----gb, fig.cap="Cytoband level data along the genome.", fig.width=10, fig.height=5----
+## ----gb, fig.cap="Cytoband level data along the genome.", fig.width=14, fig.height=7----
 opar <- par(mfrow=c(2,1))
 barplot(bandData, what = "CytoGPS_Result1.Loss", col = "forestgreen")
 barplot(bandData, what = "CytoGPS_Result1.Gain", col = "orange")

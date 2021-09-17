@@ -1,9 +1,26 @@
 			Dear Emacs, please make this -*-Text-*- mode!
 	**************************************************
 	*						 *
-	*	       1.1 SERIES NEWS			 *
+	*	       1.2 SERIES NEWS			 *
 	*						 *
 	**************************************************
+
+
+		CHANGES IN R VERSION 1.2.1
+
+NEW FEATURES
+
+    o	Added a "clip" option to the "image" method that toggles
+    	whether chrtomosomes are shown full length or are shrunk to be
+    	the real size relative to Chromosome 1.
+
+DOCUMENTATION
+
+    o	Minor changes to graphing routines to try to achieve better
+        automated placement of chromosome labels (see vignettes).
+
+    o	Clarified that cytoband locations are the same in several
+        genome builds.
 
 
 		CHANGES IN R VERSION 1.1.1

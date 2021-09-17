@@ -16,7 +16,7 @@ colnames(cytoData)
 bandData <- CytobandData(cytoData)
 Acolumns <- c("A.Loss", "A.Gain", "A.Fusion")
 
-## ----gb, fig.cap="Figure 1: Cytoband level data along the genome.", fig.width=10, fig.height=5----
+## ----gb, fig.cap="Figure 1: Cytoband level data along the genome.", fig.width=14, fig.height=7----
 opar <- par(mfrow=c(2,1))
 barplot(bandData, "A.Loss", col = "forestgreen")
 barplot(bandData, "B.Loss", col="orange")
@@ -38,11 +38,11 @@ image(bandData, what = list("A.Loss", "B.Loss"), chr = 5, horiz = TRUE)
 ## ----makeid, fig.width=10, fig.height=8, fig.cap="Figure 6: Idiogram for one data columm."----
 image(bandData, what = Acolumns[1], chr = "all", pal = "orange")
 
-## ----biid, fig.width=10, fig.height=8, fig.cap="Figure 7: Idiogram to contrast two data columms."----
-image(bandData, what = Acolumns[1:2], chr = "all", 
+## ----biid, fig.width=15, fig.height=12, fig.cap="Figure 7: Idiogram to contrast two data columms."----
+image(bandData, what = Acolumns[1:2], chr = "all",
       pal=c("orange", "forestgreen"))
 
-## ----biid3, fig.width=10, fig.height=10, fig.cap="Figure 8: Idiogram to contrast two data columms."----
+## ----biid3, fig.width=17, fig.height=17, fig.cap="Figure 8: Idiogram to contrast two data columms."----
 image(bandData, what = Acolumns[1:2], chr = "all", nrows = 3,
       pal=c("orange", "forestgreen"))
 
@@ -50,7 +50,7 @@ image(bandData, what = Acolumns[1:2], chr = "all", nrows = 3,
 image(bandData, what = Acolumns[1:2], chr = "all", 
       pal=c("orange", "forestgreen"), horiz = TRUE)
 
-## ----stackid, fig.width=9, fig.height=14, fig.cap="Figure 10: Idiogram for many data columns."----
+## ----stackid, fig.width=17, fig.height=15, fig.cap="Figure 10: Idiogram for many data columns."----
 image(bandData, what = Acolumns[1:3], chr = "all", 
               pal=c("forestgreen", "orange", "purple"), nrows=3, horiz = FALSE)
 
