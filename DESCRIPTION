@@ -1,9 +1,14 @@
 Package: RCytoGPS
-Version: 1.2.5
-Date: 2023-11-27
+Version: 1.2.7
+Date: 2024-09-04
 Title: Using Cytogenetics Data in R
-Author: Kevin R. Coombes, Dwayne Tally
-Maintainer: Kevin R. Coombes <krc@silicovore.com>
+Authors@R: c(person(given = c("Kevin", "R."),
+                      family = "Coombes",
+                      role = c("aut", "cre"),
+                      email = "krc@silicovore.com"),
+               person(given = "Dwayne",
+                      family = "Tally",
+                      role = "aut"))
 Description: Defines classes and methods to process text-based
   cytogenetics using the CytoGPS web site, then import the results
   into R for further analysis and graphing.
@@ -14,6 +19,9 @@ VignetteBuilder: knitr
 License: Apache License (== 2.0)
 URL: http://oompa.r-forge.r-project.org/
 NeedsCompilation: no
-Packaged: 2023-11-27 16:05:10 UTC; KRC
+Packaged: 2024-09-04 13:41:13 UTC; kevin
+Author: Kevin R. Coombes [aut, cre],
+  Dwayne Tally [aut]
+Maintainer: Kevin R. Coombes <krc@silicovore.com>
 Repository: CRAN
-Date/Publication: 2023-11-27 16:30:02 UTC
+Date/Publication: 2024-09-04 14:00:05 UTC
