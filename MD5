@@ -1,4 +1,4 @@
-a627084fe3778a00bad20c4a30629e31 *DESCRIPTION
+6decd077d329cf52267afb097c8dc5da *DESCRIPTION
 0f6271e951f2f26b7f1947c3db1950f1 *NAMESPACE
 259051f0ebc7685ce961a1f718fdb17c *NEWS
 10602f8716faf033373e74f0a540425c *R/00-utility.R
@@ -9,11 +9,11 @@ bf49ec06b89a99087272ce4fbe32ef88 *R/04-simpleIdio.R
 184044028362bcb4b7a8905e175d4aa1 *R/06-Objects.R
 a6d02981694c0144d4b4a8dbc58de5c4 *R/101readLGF.R
 9b7979cab7560ee684743fe17ec438d6 *R/102-preclean.R
-16fb1326a91e9110a5cb5769ac40445f *R/sysdata.rda
+0627f1ca7a6a3b70d1790c9a46fe6308 *R/sysdata.rda
 059e44bfdf37145a9e7b762681df9b5b *TODO
-61ff46de7bfead389aed2d72ed699800 *build/vignette.rds
-08239d9950b146dcf5b929b0e0aa22ec *data/cytoData.rda
-16fb1326a91e9110a5cb5769ac40445f *data/cytobandLocations.rda
+ea67e202f5b7397376970894a6e82650 *build/vignette.rds
+cd12bfc52e4db84def9c204e87b7d691 *data/cytoData.rda
+0627f1ca7a6a3b70d1790c9a46fe6308 *data/cytobandLocations.rda
 e7948b903e576a1543cc2a1575345327 *inst/Cytobands/00-makeIdio.R
 2bcf1add249c3103515ae441692970de *inst/Cytobands/idioGPS.csv
 f083c410c57ee84c4385255f634dfe94 *inst/Examples/JSONfiles/CytoGPS_Result1.json
@@ -26,10 +26,10 @@ a5d8d70905f5f0fff17fec2d75a700fa *inst/PreClean/badStrings.txt
 350241a8abc810ef6118e1ba52d878c2 *inst/PreClean/startKaryotypes.csv
 cc561fdb55f9a8c9d3c298147523cedb *inst/doc/Gallery.R
 8a6d616a9a64b49a0ff9aab41548a631 *inst/doc/Gallery.Rmd
-873c65a25d5b98f38143a0f9876e45f0 *inst/doc/Gallery.html
+f9de34dfaa18c15f40362b3b557e5f60 *inst/doc/Gallery.html
 e26d41234a697bdd02a39974454f4935 *inst/doc/IntroRCytoGPS.R
 b2bb2dbe6d7d9b6a4a4327bffe099bc3 *inst/doc/IntroRCytoGPS.Rmd
-c5069fe8391bd620a31e589534d9f76d *inst/doc/IntroRCytoGPS.html
+d0b0f380f22aed5ccda47d7d4b745af9 *inst/doc/IntroRCytoGPS.html
 40773a58bc7f1310caa67c02a3836304 *man/01-cytobandLocations.Rd
 db027cf04e73781b9e19274d25441c1a *man/02-readLGF.Rd
 0208160f4f385962297b93e30e01c12f *man/03-CytobandData.Rd
@@ -45,8 +45,8 @@ b3c450247aa6fee27beb218c1abb480e *tests/test01-chrom.Rout.save
 fd70e7d294ef7d66d0d069074aecabca *tests/test03-objects.Rout.save
 1ea72847739c4c370651a526f05cb111 *tests/test100-read.R
 157abbe8db852063383c1f4111c6b4f0 *tests/test100-read.Rout.save
-0d2ef10d01b7ff28539e3e00eb66c587 *tests/test101-preclean.R
-59faf0233b52b98171544166a3dd671a *tests/test101-preclean.Rout.save
+62f1771b14225f158a1ddc1b3ab6a584 *tests/test101-preclean.R
+3a06c29976a6715dd15da2a4ffe56ace *tests/test101-preclean.Rout.save
 9c3d300ab92b14b2460ce74717978d9c *tests/testclip.R
 8a6d616a9a64b49a0ff9aab41548a631 *vignettes/Gallery.Rmd
 b2bb2dbe6d7d9b6a4a4327bffe099bc3 *vignettes/IntroRCytoGPS.Rmd
