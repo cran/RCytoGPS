@@ -1,6 +1,6 @@
 Package: RCytoGPS
-Version: 1.2.10
-Date: 2026-01-27
+Version: 1.2.13
+Date: 2026-07-06
 Title: Using Cytogenetics Data in R
 Authors@R: c(person(given = c("Kevin", "R."),
                       family = "Coombes",
@@ -19,9 +19,9 @@ VignetteBuilder: knitr
 License: Apache License (== 2.0)
 URL: http://oompa.r-forge.r-project.org/
 NeedsCompilation: no
-Packaged: 2026-01-28 03:33:29 UTC; KRC
+Packaged: 2026-07-06 14:46:07 UTC; kevin
 Author: Kevin R. Coombes [aut, cre],
   Dwayne Tally [aut]
 Maintainer: Kevin R. Coombes <krc@silicovore.com>
 Repository: CRAN
-Date/Publication: 2026-01-29 12:30:02 UTC
+Date/Publication: 2026-07-06 15:40:07 UTC
